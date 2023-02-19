@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity(), View {
         binding.txResult.text = count.toString()
     }
 
-
     override fun toast(message: String) {
         val myToast = Toast.makeText(applicationContext,message,Toast.LENGTH_SHORT)
         myToast.show()
